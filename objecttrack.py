@@ -2,7 +2,7 @@
 import time 
 import numpy as np 
 import cv2
-import imutils
+
 object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=10)
 cap = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
